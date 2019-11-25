@@ -1,0 +1,159 @@
+
+.flex{
+	display: flex;
+	justify-content: space-around;
+}
+.p{
+	padding: 10px;
+}
+.m{
+	margin: 10px;
+}
+
+h1, h2{
+	padding: 0;
+	color: DodgerBlue;
+}
+.mainbar{
+	color: #083794;
+	border: 2px solid #083794;
+}
+#title{
+	color: #083794;	
+}
+.event{
+	background-color: white;
+	border-top: 2px solid #F1C933;
+	color: #222222;
+	margin: 10px;
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+}
+
+.nav a{
+	text-decoration: none;
+	color: white;
+	font-size: 1.6em;
+}
+.nav a:hover{
+	color: #F1C933;
+	text-decoration: underline;
+}
+.nav{
+	border-bottom: 2px solid #F1C933;
+	background-color: #083794;
+	padding: 15px;
+}
+.events-container{
+	width: 72%;
+}
+.right-box{
+	padding-left: 8px;
+	width: 28%;
+	-webkit-box-shadow: -3px 1px 7px -3px rgba(0,0,0,0.75);
+	-moz-box-shadow: -3px 1px 7px -3px rgba(0,0,0,0.75);
+	box-shadow: -3px 1px 7px -3px rgba(0,0,0,0.75);
+	margin-top: 10px;
+	border-top: 2px solid #F1C933;
+	min-height: 40em;
+}
+
+#filter select{
+	color: DodgerBlue;
+	background-color: ; 
+	font-size: 1.4em; 	
+	padding: 10px;
+	border:  0;
+	border-top: 2px solid #F1C933;
+	cursor: pointer;
+}
+.button {
+	background-color: DodgerBlue; /* Green */
+	border: none;
+	color: white;
+	padding: 10px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	font-size: 1.4em; 
+}
+.button:hover{
+	background-color: #1e54ff;
+}
+#create_form{
+	margin: 10px;
+	border:  2px solid #F1C933;
+	align-content: center;
+	text-align: center;
+	color: #002166;
+}
+#create_form div{
+	
+	margin: 10px;
+	font-size: 1.4em;
+	font-family: arial;
+
+}
+#newmatch{
+	text-align: center;
+}
+.alinks{
+	text-decoration: none ;
+}
+.alinks:hover{
+	text-decoration: underline ;
+}
+
+input[type=text],select, input[type=datetime-local],input[type=number]{
+	width: 50%;
+	padding: 6px 10px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	font-size: 1.1em;
+	color: #002166;
+}
+.event form{
+	width: 100%;
+	position: relative;
+}
+.delete_btn{
+	position: absolute;
+	right: 0; 
+	border: 0;
+	background-color: red;
+	color: white;
+	border-radius: 100%;
+	padding: 8px 12px;
+	font-weight: bold; 
+	cursor: pointer;
+}
+.delete_btn:hover{
+	background-color: #810000;
+}
+.show{
+	text-align: center;
+	min-height: 23em;
+}
+.dates{
+	font-size: 1.2em;
+	font-family: arial;
+	color: #3e3e3e	;
+}
+.big_text{
+	font-size: 1.4em;
+	color: #1e54ff;
+}
+.scorepanel{
+	-webkit-box-shadow: -3px 1px 7px -3px rgba(0,0,0,0.75);
+	-moz-box-shadow: -3px 1px 7px -3px rgba(0,0,0,0.75);
+	box-shadow: -3px 1px 7px -3px rgba(0,0,0,0.75);
+	border-top: 2px solid #F1C933;
+	margin-top: 8px;
+}
+footer{
+	position: relative;
+
+}		
